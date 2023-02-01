@@ -1,0 +1,49 @@
+.fillindesc {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.fillInText {
+  margin: .2rem;
+  height: 2.5rem;
+  background-color: white;
+  border: none;
+}
+
+.dropdownTimesheetGlobal {
+  background-color: white;
+  color: black;
+  height: 2.1rem;
+}
+
+div {
+}
+
+.timesheetMonthPickingDivs {
+  width: 8.3%;
+  display: flex;
+  float: left;
+  border-color: black;
+}
+
+.timesheetMonthChangeButton {
+  background: rgb(255,255,255);
+  color: rgb(0,0,0);
+  font-family: Montserrat, sans-serif;
+  border: none;
+  width: 100%;
+  outline: inset;
+  outline-width: thin;
+}
+
+.timesheetIndividualCellEntry {
+  width: 25%;
+}
+
+.timesheetBottomConfirmButtons {
+  margin: .5rem;
+  color: white;
+  background-color: #a41e35;
+  border-radius: 36px;
+}
+

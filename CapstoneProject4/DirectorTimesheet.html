@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>LenfestCompile</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/16-scrollbar-styles-scrollbar.css">
+    <link rel="stylesheet" href="assets/css/16-scrollbar-styles.css">
+    <link rel="stylesheet" href="assets/css/Fern-Login-Form.css">
+    <link rel="stylesheet" href="assets/css/Fully-responsive-table.css">
+    <link rel="stylesheet" href="assets/css/Login-Box-En-login-box-en.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
+    <link rel="stylesheet" href="assets/css/Search-Input-responsive.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="height: 100%;">
+    <div style="display: flex;width: 50%;float: right;padding-top: 84px;height: 100px;">
+        <h1 style="font-size: 15px;margin-left: auto;font-family: Montserrat, sans-serif;font-weight: bold;">Welcome: Shirley</h1>
+    </div>
+    <div style="width: 50%;display: flex;"><img src="assets/img/lenfest.png" width="165" height="81"></div>
+    <div style="font-family: Montserrat, sans-serif;">
+        <nav class="navbar navbar-light navbar-expand-md py-3" style="background: #a41e35;height: 77px;width: 100%;">
+            <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1" style="margin-right: 0px;padding-left: 0px;">
+                    <ul class="navbar-nav ms-auto"></ul><button onclick="location.href='directorTimesheetview.html'" class="btn" type="button" style="background: #FD9CAD;color: rgb(0,0,0);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;border: none;">View Timesheet</button><button onclick="location.href='CreateWorker.html'" class="btn" type="button" style="background: rgb(255,255,255);color: rgb(0,0,0);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;border: none;">Create Worker</button><button onclick="location.href='directorSummaryResult.html'" class="btn" type="button" style="background: rgb(255,255,255);color: rgb(0,0,0);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;border: none;">View Summaries</button><button onclick="location.href='directorNotify%20(3).html'" class="btn" type="button" style="background: rgb(255,255,255);color: rgb(0,0,0);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;border: none;">Admin Tools</button><button onclick="location.href='login.html'" class="btn" type="button" style="background: rgb(255,255,255);color: rgb(0,0,0);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;border: none;">Logout</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div style="background: #D9D9D9;height: 37px;width: 100%;">
+        <div style="float: left;height: 37px;">
+            <h1 style="font-size: 25px;font-family: Montserrat, sans-serif;height: 37px;width: 300px;font-weight: bold;">Employee Timesheet:</h1>
+        </div>
+        <div style="width: 16%;float: left;height: 37px;">
+            <div class="dropdown"><button class="btn dropdown-toggle dropdownTimesheetGlobal" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background-color: white;color: black;height: 2.1rem;font-family: Montserrat, sans-serif;">Year</button>
+                <div class="dropdown-menu"><a class="dropdown-item" href="#">2022</a><a class="dropdown-item" href="#">2023</a><a class="dropdown-item" href="#">2024</a></div>
+            </div>
+        </div>
+        <div style="float: right;width: 14%;"></div>
+        <div style="float: right;width: 6%;"></div>
+        <div style="display: flex;float: left;margin-left: auto;">
+            <p style="font-size: 1.2rem;font-weight: bold;font-family: Montserrat, sans-serif;">Status:&nbsp;</p>
+            <div class="dropdown"><button class="btn dropdown-toggle dropdownTimesheetGlobal" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background-color: white;color: black;height: 2.1rem;font-family: Montserrat, sans-serif;margin-left: auto;">Active</button>
+                <div class="dropdown-menu"><a class="dropdown-item" href="#">Active</a><a class="dropdown-item" href="#">Inactive</a><a class="dropdown-item" href="#"></a></div>
+            </div>
+        </div>
+    </div>
+    <div style="color: var(--bs-border-color-translucent);height: 338px;width: 97%;margin: 20px;margin-left: 1.5%;margin-top: 1%;--bs-primary: #d90b0b;--bs-primary-rgb: 217,11,11;height: 100%;background: var(--bs-white);">
+        <div style="width: 100%;height: 15%;">
+            <div style="width: 15%;float: left;display: inline-flex;height: 55px;">
+                <h1 style="color: black;font-size: 35px;width: 218px;font-family: Montserrat, sans-serif;font-weight: bold;">Gail Smalls</h1>
+            </div>
+            <div style="float: left;display: flex;height: 55px;"><label class="form-label" style="font-size: 18px;font-family: Montserrat, sans-serif;font-weight: bold;color: black;">Date of hire:&nbsp;</label><input type="text" style="border-color: black;margin-right: 30px;font-family: Montserrat, sans-serif;font-size: 18px;width: 175px;" value="October 15th, 2007"><label class="form-label" style="font-size: 18px;font-family: Montserrat, sans-serif;font-weight: bold;color: black;">&nbsp;Email:&nbsp;</label><input type="text" style="border-color: black;margin-right: 30px;font-family: Montserrat, sans-serif;font-size: 18px;" value="gail.smalls@temple.edu "><label class="form-label" style="font-size: 18px;font-family: Montserrat, sans-serif;font-weight: bold;color: black;">Role Type:&nbsp;</label>
+                <div class="dropdown"><button class="btn dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: var(--bs-white);color: var(--bs-black);height: 54px;font-size: 18px;font-family: Montserrat, sans-serif;margin-right: 30px;">Worker</button>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                </div><label class="form-label" style="font-size: 18px;font-family: Montserrat, sans-serif;font-weight: bold;color: black;">Employee Type:&nbsp;</label>
+                <div class="dropdown"><button class="btn dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: var(--bs-white);color: var(--bs-black);height: 54px;font-size: 18px;font-family: Montserrat, sans-serif;margin-right: 30px;">Full-Time</button>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                </div><label class="form-label" style="font-size: 18px;font-family: Montserrat, sans-serif;font-weight: bold;color: black;">Fringe Rate:&nbsp;</label><input type="text" style="border-color: black;width: 116.8px;margin-right: 30px;font-size: 18px;font-family: Montserrat, sans-serif;" value="28.8%"><label class="form-label" style="font-size: 18px;font-family: Montserrat, sans-serif;font-weight: bold;color: black;">&nbsp;Salary:&nbsp;</label><input type="text" style="border-color: black;width: 120px;font-family: Montserrat, sans-serif;font-size: 18px;" value="$15.00">
+            </div>
+        </div>
+        <div style="height: 10%;width: 100%;display: flex;padding-top: 1rem;padding-block: 1rem;border-width: 0px;border-color: var(--bs-black);">
+            <div class="timesheetMonthPickingDivs"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">Jan</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">Feb</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;border-width: 0px;border-style: solid;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">Mar</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;border-width: 0px;border-style: solid;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">Apr</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;border-width: 0px;border-style: solid;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">May</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;border-width: 0px;border-style: solid;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">Jun</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;border-width: 0px;border-style: solid;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">Jul</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;border-width: 0px;border-style: solid;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">Aug</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;border-width: 0px;border-style: solid;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">Sep</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;border-width: 0px;border-style: solid;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;background: #FD9CAD;font-family: Montserrat, sans-serif;border-radius: 36px;">Oct</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;border-width: 0px;border-style: solid;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">Nov</button></div>
+            <div class="timesheetMonthPickingDivs" style="width: 8.3%;display: flex;float: left;border-width: 0px;border-style: solid;font-weight: bold;color: black;font-family: Montserrat, sans-serif;"><button class="btn btn-danger timesheetMonthChangeButton" type="button" style="color: black;border-width: .5px;border-style: solid;font-family: Montserrat, sans-serif;border-radius: 36px;">Dec</button></div>
+        </div>
+        <div style="/*display: flex;*/">
+            <div class="table-responsive" style="display: flex;width: 100%;height: 100%;outline-color: black;outline-style: solid;outline-width: .05rem;background-color: white;">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th style="font-family: Montserrat, sans-serif;font-weight: bold;border-width: 2px;border-color: black;font-size: 20px;text-align: center;">WEEK</th>
+                            <th style="font-family: Montserrat, sans-serif;font-weight: bold;border-width: 2px;border-color: black;font-size: 20px;text-align: center;">DATE</th>
+                            <th style="font-family: Montserrat, sans-serif;text-align: center;font-weight: bold;border-width: 2px;border-color: black;font-size: 20px;">1691/102</th>
+                            <th style="font-family: Montserrat, sans-serif;text-align: center;font-weight: bold;border-width: 2px;border-color: black;font-size: 20px;">1692/101</th>
+                            <th style="border-width: 2px;border-color: black;font-size: 20px;font-family: Montserrat, sans-serif;text-align: center;"></th>
+                            <th style="font-family: Montserrat, sans-serif;font-weight: bold;border-width: 2px;border-color: black;font-size: 20px;text-align: center;">TIME OFF</th>
+                            <th style="font-family: Montserrat, sans-serif;font-weight: bold;border-width: 2px;border-color: black;font-size: 20px;text-align: center;">TOTAL HRS.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-width: 2px;">
+                            <td style="font-family: Montserrat, sans-serif;border-width: 2px;text-align: center;">1</td>
+                            <td style="font-family: Montserrat, sans-serif;border-width: 2px;text-align: center;"><span style="background-color: rgb(248, 248, 248);">Monday, October 24, 2022</span><br></td>
+                            <td style="border-width: 2px;text-align: center;"><input type="text" class="timesheetIndividualCellEntry" style="border-width: 2px;font-family: Montserrat, sans-serif;" value="3.0"></td>
+                            <td style="border-width: 2px;text-align: center;"><input type="text" class="timesheetIndividualCellEntry" style="border-width: 2px;font-family: Montserrat, sans-serif;" value="3.0"></td>
+                            <td style="border-width: 2px;"></td>
+                            <td style="border-width: 2px;"></td>
+                            <td style="border-width: 2px;font-family: Montserrat, sans-serif;">6.0</td>
+                        </tr>
+                        <tr style="border-width: 2px;">
+                            <td style="font-family: Montserrat, sans-serif;border-width: 2px;text-align: center;">1&nbsp;</td>
+                            <td style="font-family: Montserrat, sans-serif;border-width: 2px;text-align: center;"><span style="background-color: rgb(248, 248, 248);">Tuesday, October 25, 2022</span><br></td>
+                            <td style="border-width: 2px;text-align: center;"><input type="text" class="timesheetIndividualCellEntry" style="border-width: 2px;font-family: Montserrat, sans-serif;" value="3.0"></td>
+                            <td style="border-width: 2px;text-align: center;"><input type="text" class="timesheetIndividualCellEntry" style="border-width: 2px;font-family: Montserrat, sans-serif;" value="3.0"></td>
+                            <td style="border-width: 2px;"></td>
+                            <td style="border-width: 2px;"></td>
+                            <td style="border-width: 2px;font-family: Montserrat, sans-serif;">6.0</td>
+                        </tr>
+                        <tr style="border-width: 2px;">
+                            <td style="font-family: Montserrat, sans-serif;border-width: 2px;text-align: center;">1</td>
+                            <td style="font-family: Montserrat, sans-serif;border-width: 2px;text-align: center;"><span style="background-color: rgb(248, 248, 248);">Wednesday, October 26, 2022</span><br></td>
+                            <td style="border-width: 2px;text-align: center;"><input type="text" class="timesheetIndividualCellEntry" style="border-width: 2px;font-family: Montserrat, sans-serif;" value="2.0"></td>
+                            <td style="border-width: 2px;text-align: center;"><input type="text" class="timesheetIndividualCellEntry" style="border-width: 2px;font-family: Montserrat, sans-serif;" value="2.0"></td>
+                            <td style="border-width: 2px;"></td>
+                            <td style="border-width: 2px;"></td>
+                            <td style="border-width: 2px;font-family: Montserrat, sans-serif;">4.0</td>
+                        </tr>
+                        <tr style="border-width: 2px;">
+                            <td style="font-family: Montserrat, sans-serif;border-width: 2px;text-align: center;">1</td>
+                            <td style="font-family: Montserrat, sans-serif;border-width: 2px;text-align: center;"><span style="background-color: rgb(248, 248, 248);">Thursday, October 27, 2022</span><br></td>
+                            <td style="border-width: 2px;text-align: center;"><input type="text" class="timesheetIndividualCellEntry" style="border-width: 2px;font-family: Montserrat, sans-serif;" value="0.0"></td>
+                            <td style="border-width: 2px;text-align: center;"><input type="text" class="timesheetIndividualCellEntry" style="border-width: 2px;font-family: Montserrat, sans-serif;" value="0.0"></td>
+                            <td style="border-width: 2px;"></td>
+                            <td style="border-width: 2px;"></td>
+                            <td style="border-width: 2px;font-family: Montserrat, sans-serif;">0.0</td>
+                        </tr>
+                        <tr style="border-width: 2px;">
+                            <td style="font-family: Montserrat, sans-serif;border-width: 2px;text-align: center;">1</td>
+                            <td style="font-family: Montserrat, sans-serif;border-width: 2px;text-align: center;"><span style="background-color: rgb(248, 248, 248);">Friday, October 28, 2022</span><br></td>
+                            <td style="border-width: 2px;text-align: center;"><input type="text" class="timesheetIndividualCellEntry" style="border-width: 2px;font-family: Montserrat, sans-serif;" value="3.0"></td>
+                            <td style="border-width: 2px;text-align: center;"><input type="text" class="timesheetIndividualCellEntry" style="border-width: 2px;font-family: Montserrat, sans-serif;" value="3.0"></td>
+                            <td style="border-width: 2px;"></td>
+                            <td style="border-width: 2px;"></td>
+                            <td style="border-width: 2px;font-family: Montserrat, sans-serif;">6.0</td>
+                        </tr>
+                        <tr style="background-color: #d9d9d9;">
+                            <td style="font-family: Montserrat, sans-serif;font-weight: bold;border-width: 2px;font-size: 20px;text-align: center;background: var(--bs-table-border-color);">Week Subtotal</td>
+                            <td style="border-width: 2px;background: var(--bs-table-border-color);"></td>
+                            <td style="font-family: Montserrat, sans-serif;font-weight: bold;border-width: 2px;text-align: center;background: var(--bs-table-border-color);">11.0</td>
+                            <td style="font-family: Montserrat, sans-serif;font-weight: bold;border-width: 2px;background: var(--bs-table-border-color);">11.0</td>
+                            <td style="border-width: 2px;background: var(--bs-table-border-color);"></td>
+                            <td style="border-width: 2px;background: var(--bs-table-border-color);"></td>
+                            <td style="border-width: 2px;background: var(--bs-table-border-color);font-family: Montserrat, sans-serif;">22.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="background: #D9D9D9;height: 60px;text-align: right;"><button onclick="location.href='DisplayingCodes.html'" class="btn" type="button" style="background: #a41e35;color: var(--bs-gray-100);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;padding-right: 15px;margin-right: 5px;text-align: center;width: 100px;height: 40px;float: left;font-size: 13px;">Edit Codes</button><button class="btn" type="button" style="background: #a41e35;color: var(--bs-gray-100);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;padding-right: 15px;margin-right: 5px;text-align: center;width: 100px;height: 40px;">Lock</button><button class="btn" type="button" style="background: #a41e35;color: white;font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;padding-right: 15px;margin-right: 5px;width: 100px;height: 40px;">Save</button><button class="btn" type="button" style="background: #a41e35;color: White;font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;padding-right: 15px;margin-right: 5px;width: 100px;height: 40px;">Export</button></div>
+        </div>
+    </div>
+    <footer style="height: 34px;border-top: 1px solid rgb(217,217,217);background-color: red;bottom: 0;position: absolute;"></footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>LenfestCompile</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/16-scrollbar-styles-scrollbar.css">
+    <link rel="stylesheet" href="assets/css/16-scrollbar-styles.css">
+    <link rel="stylesheet" href="assets/css/Fern-Login-Form.css">
+    <link rel="stylesheet" href="assets/css/Fully-responsive-table.css">
+    <link rel="stylesheet" href="assets/css/Login-Box-En-login-box-en.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
+    <link rel="stylesheet" href="assets/css/Search-Input-responsive.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="height: 643px;">
+    <div style="display: flex;width: 50%;float: right;padding-top: 84px;height: 100px;">
+        <h1 style="font-size: 15px;font-family: Montserrat, sans-serif;font-weight: bold;display: flex;margin-left: auto;">Welcome: Shirley</h1>
+    </div>
+    <div style="font-family: Montserrat, sans-serif;"><img src="assets/img/lenfest.png" width="165" height="81">
+        <nav class="navbar navbar-light navbar-expand-md py-3" style="background: #a41e35;height: 77px;width: 100%;">
+            <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1" style="margin-right: 0px;padding-left: 0px;">
+                    <ul class="navbar-nav ms-auto"></ul><button class="btn" type="button" style="background: #FD9CAD;color: rgb(0,0,0);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;">View Timesheet</button><button onclick="location.href='CreateWorker.html'" class="btn" type="button" style="background: rgb(255,255,255);color: rgb(0,0,0);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;">Create Worker</button><button onclick="location.href='directorSummaryResult.html'" class="btn" type="button" style="background: rgb(255,255,255);color: rgb(0,0,0);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;">View Summaries</button><button onclick="location.href='directorNotify%20(3).html'" class="btn" type="button" style="background: rgb(255,255,255);color: rgb(0,0,0);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;">Admin Tools</button><button onclick="location.href='login.html'" class="btn" type="button" style="background: rgb(255,255,255);color: rgb(0,0,0);font-family: Montserrat, sans-serif;border-radius: 36px;margin: 8px;">Logout</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div style="background: #D9D9D9;height: 58px;padding-top: 12px;padding-left: 12px;">
+        <div class="col-sm form-group mb-3" style="display: flex;width: 4%;float: right;"><i class="fas fa-search float-start search-icon" style="padding-top: 7px;padding-right: 0px;margin-right: -37px;margin-left: 4px;font-size: 21px;"></i></div>
+        <div style="display: flex;float: left;position: inherit;width: 20%;">
+            <div class="dropdown"><button class="btn dropdown-toggle dropdownTimesheetGlobal" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background-color: white;color: black;height: 2.1rem;width: 103px;">Month</button>
+                <div class="dropdown-menu"><a class="dropdown-item" href="#">October</a><a class="dropdown-item" href="#">November</a><a class="dropdown-item" href="#">December</a></div>
+            </div>
+            <div class="dropdown"><button class="btn dropdown-toggle dropdownTimesheetGlobal" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background-color: white;color: black;height: 2.1rem;width: 103px;">Year</button>
+                <div class="dropdown-menu"><a class="dropdown-item" href="#">2022</a><a class="dropdown-item" href="#">2023</a><a class="dropdown-item" href="#">2024</a></div>
+            </div>
+            <div class="dropdown"><button class="btn dropdown-toggle dropdownTimesheetGlobal" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background-color: white;color: black;height: 2.1rem;width: 103px;">Quarter</button>
+                <div class="dropdown-menu"><a class="dropdown-item" href="#">First Quarter</a><a class="dropdown-item" href="#">Second Quarter</a><a class="dropdown-item" href="#">Third Quarter</a></div>
+            </div>
+        </div>
+    </div>
+    <div style="color: var(--bs-border-color-translucent);height: 338px;float: left;">
+        <div class="table-responsive" style="display: flex;">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th style="font-family: Montserrat, sans-serif;">First NAME</th>
+                        <th style="font-family: Montserrat, sans-serif;">Last NAME</th>
+                        <th style="font-family: Montserrat, sans-serif;">Role</th>
+                        <th style="font-family: Montserrat, sans-serif;">Timesheet</th>
+                        <th style="font-family: Montserrat, sans-serif;">TimeSheet Status</th>
+                        <th style="font-family: Montserrat, sans-serif;">Pending</th>
+                        <th style="font-family: Montserrat, sans-serif;">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="font-family: Montserrat, sans-serif;">Carolyn</td>
+                        <td style="font-family: Montserrat, sans-serif;">Finklea</td>
+                        <td style="font-family: Montserrat, sans-serif;">Project Coordinator</td>
+                        <td><button class="btn" type="button" style="border-radius: 46px;width: 122.5px;height: 40px;background: rgb(164,30,53);font-family: Montserrat, sans-serif;color: white;">View</button></td>
+                        <td style="font-family: Montserrat, sans-serif;">Complete</td>
+                        <td>Unlocked</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Montserrat, sans-serif;">Cierra</td>
+                        <td style="font-family: Montserrat, sans-serif;">Pierce</td>
+                        <td style="font-family: Montserrat, sans-serif;">Volunteer</td>
+                        <td><button class="btn" type="button" style="border-radius: 46px;width: 122.5px;height: 40px;background: rgb(164,30,53);font-family: Montserrat, sans-serif;color: white;">View</button></td>
+                        <td style="font-family: Montserrat, sans-serif;">Complete</td>
+                        <td>Locked</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Montserrat, sans-serif;">Gail</td>
+                        <td style="font-family: Montserrat, sans-serif;">&nbsp;Smalls</td>
+                        <td style="font-family: Montserrat, sans-serif;">Worker</td>
+                        <td><button onclick="location.href='DirectorTimesheet.html'" class="btn" type="button" style="border-radius: 46px;width: 122.5px;height: 40px;background: rgb(164,30,53);font-family: Montserrat, sans-serif;color: white;">View</button></td>
+                        <td style="font-family: Montserrat, sans-serif;">Complete</td>
+                        <td>Unlocked</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Montserrat, sans-serif;">Kaley&nbsp;</td>
+                        <td style="font-family: Montserrat, sans-serif;">Tyler</td>
+                        <td style="font-family: Montserrat, sans-serif;">Volunteer</td>
+                        <td><button class="btn" type="button" style="border-radius: 46px;width: 122.5px;height: 40px;background: rgb(164,30,53);font-family: Montserrat, sans-serif;color: white;">View</button></td>
+                        <td style="font-family: Montserrat, sans-serif;">Complete</td>
+                        <td>Locked</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Montserrat, sans-serif;">Seth</td>
+                        <td style="font-family: Montserrat, sans-serif;">Wiley</td>
+                        <td style="font-family: Montserrat, sans-serif;">Worker</td>
+                        <td><button class="btn" type="button" style="border-radius: 46px;width: 122.5px;height: 40px;background: rgb(164,30,53);font-family: Montserrat, sans-serif;color: white;">View</button></td>
+                        <td style="font-family: Montserrat, sans-serif;">Complete</td>
+                        <td>Locked</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Montserrat, sans-serif;">Zack</td>
+                        <td style="font-family: Montserrat, sans-serif;">Yo</td>
+                        <td style="font-family: Montserrat, sans-serif;">Worker</td>
+                        <td><button class="btn" type="button" style="border-radius: 46px;width: 122.5px;height: 40px;background: rgb(164,30,53);font-family: Montserrat, sans-serif;color: white;">View</button></td>
+                        <td style="font-family: Montserrat, sans-serif;">Complete</td>
+                        <td>Locked</td>
+                        <td>Active</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer style="height: 34px;border-top: 1px solid rgb(217,217,217);"></footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
